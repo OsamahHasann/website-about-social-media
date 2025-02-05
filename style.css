@@ -1,19 +1,13 @@
-.dad{
+.head{
     background-color: #2c3e50;
     height:70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-flow: row;
-    
-    
+ 
+  
 }
-.dad div{
-    width: 50px;
-   height: 30px;
-   }
-
-   .logo{
+.logo{
     color: aliceblue;
     height: 25px;
     padding: 10px;
@@ -55,41 +49,74 @@
     margin: 10px; 
 }
 
+.big{
+    
+    direction:rtl;
+    background-color: rgba(184, 183, 161, 0.5) ;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 20px;
+
+ }
 .artical1{
-    background-color: white;
-   /* text-align: center;*/
-   display: flex;
-   flex-flow:row ;
-    margin: 80px;
-    padding: 50px;
-    height: 60px;
+   
+    color: #000;
+    text-align: center;
+   margin: 50px;
+    padding:50px;
     border: 1px solid gray;
     border-radius: 20px;
+    background-color: rgba(56, 56, 110, 0.2); 
+}
+.artical2{
+   
+    color: #000;
+     text-align: center;
+     margin: 50px;
+     padding: 50px;
+     border: 1px solid gray;
+     border-radius: 20px;
+     background-color: rgba(97, 97, 131, 0.2); 
+}
+.artical3{
+ 
+    color: #000;
+    text-align: center;
+    margin:50px;
+     padding: 50px;
+     border: 1px solid gray;
+     border-radius: 20px;
+     background-color: rgba(97, 97, 131, 0.2);   
 }
 
 .privacy{
     color: black;
-   
+    background-color: rgba(97, 97, 131, 0.2);
     padding: 10px;
     margin: 50px;
     border: 5px solid #2c3e50 ; 
-    border-radius: 20px;  
+    border-radius: 20px;
+    direction: rtl;  
 }
 
 .about{
     color: black;
+    background-color: rgba(97, 97, 131, 0.2);
     padding: 10px;
     margin: 50px;
     border: 5px solid #2c3e50 ; 
-    border-radius: 20px;      
+    border-radius: 20px;
+    direction: rtl;      
 }
 
 .contact{
+    background-color: rgba(97, 97, 131, 0.2); 
     color: black;
     padding: 10px;
     margin: 50px;
     border: 5px solid #2c3e50 ; 
     border-radius: 20px; 
+    direction: rtl;
 }
 .fa-reply-all{
 font-size: 20px;
@@ -111,54 +138,28 @@ font-size: 20px;
 }
 
 .fa-facebook{
-    font-size: 60px;
+    font-size: 90px;
     color: #1877f2;
 }
-.artical2{
-    background-color: white;
-    /* text-align: center;*/
-    display: flex;
-     margin: 50px;
-     padding: 50px;
-     height: 60px;
-     border: 1px solid gray;
-     border-radius: 20px;
-}
+
 .fa-instagram{
-    font-size: 60px;
+    font-size: 90px;
     border-radius: 20px;
-    height: 55px;
+    height: 80px;
     background: linear-gradient(45deg, #833AB4, #E1306C, #FD1D1D, #FCAF45);   
 }
-.artical3{
-    background-color: white;
-    /* text-align: center;*/
-    display: flex;
-     margin:80px;
-     padding: 50px;
-     height: 60px;
-     border: 1px solid gray;
-     border-radius: 20px;   
-}
+
 
 .fa-square-snapchat{
-    font-size: 60px;
+    font-size: 90px;
     color: #fffc00;
     
 }
 
-.big{
-    display: flex;
-    direction:rtl;
-    flex-wrap:wrap ;
-    
-    justify-content: space-between;
-    
 
-
-}
 .facebook{
     color: black;
+    background-color: rgba(0, 0, 255,0.2);
    
     padding: 10px;
     margin: 50px;
@@ -166,30 +167,41 @@ font-size: 20px;
     border-radius: 20px;
     h1{
         color: #1877f2 ;
-    }     
+    }  
+    direction: rtl;   
 }
 
 .instgram{
 
     color: black;
-   
+    background-color: rgba(241, 168, 235, 0.2);
     padding: 10px;
     margin: 50px;
     border: 5px solid  #833AB4 ; 
     border-radius: 20px;
     h1{
         color:#833AB4 ;
-    }     
+    }  
+    direction: rtl;    
 }
 
 .snapchat{
     color: black;
-   
+    background-color: rgba(236, 241, 168, 0.2);
     padding: 10px;
     margin: 50px;
     border: 5px solid  #fffc00 ; 
     border-radius: 20px;
     h1{
         color:#fffc00 ;
-    }       
+    } 
+    direction: rtl;       
 }
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:#192202 ;
+    color: #fff;
+    text-align: center;
+}
+
